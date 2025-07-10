@@ -1,0 +1,36 @@
+﻿# Build
+bin/
+obj/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+Logs/
+*.log
+
+# Database
+*.db
+
+# Dotnet tools
+.localtool*
+
+# Visual Studio
+.vs/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Rider workspace
+*.DotSettings.user
+
+# ASP.NET secrets
+appsettings.Development.json

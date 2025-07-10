@@ -1,0 +1,41 @@
+@BASE_API_URL = https://localhost:7014
+
+###
+
+GET {{BASE_API_URL}}/api/restaurants
+
+###
+
+GET {{BASE_API_URL}}/api/restaurants/3
+
+###
+
+POST {{BASE_API_URL}}/api/restaurants
+Content-Type: application/json
+
+{
+  "Name": "Tasty Tests",
+  "Description": "A cozy restaurant service.",
+  "Category": "International Cuisine",
+  "HasDelivery": true,
+  "ContactEmail": "info@tastybites.com",
+  "ContactNumber": "555-1234",
+  "City": "New York",
+  "Street": "123 Main Street",
+  "PostalCode": "10-001"
+}
+
+###
+
+DELETE {{BASE_API_URL}}/api/restaurants/6
+
+###
+
+PATCH {{BASE_API_URL}}/api/restaurants/7
+Content-Type: application/json
+
+{
+  "Name": "Sample Patch",
+  "Description": "Description Patch",
+  "HasDelivery": false
+}
